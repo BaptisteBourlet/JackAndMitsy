@@ -1,0 +1,42 @@
+.panorama{
+    width: 100%;
+}
+nav {
+    margin-top: -5px;
+    width: 100%;
+    min-height: 60px;
+    background-color:rgb(48, 202, 61);
+    
+    ul {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        margin: auto;
+        li{
+            margin-top: 10px;
+            text-align: center;
+            width: 100%;
+            a {
+                font-family: 'cabin';
+                font-weight: bold;
+                font-size: 25px;
+                color: whitesmoke;
+                text-decoration: none;
+                padding: 10px 16px;
+            }
+            a:hover{
+                border-bottom: 5px solid whitesmoke;
+                transition: all 0.3s;
+            }
+        }
+    }
+}
+.sticky{
+    position: fixed;
+    top: 0;
+}
+
+
+
+

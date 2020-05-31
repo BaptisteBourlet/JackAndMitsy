@@ -1,0 +1,79 @@
+
+
+section {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    margin-top: 100px;
+    h3 {
+            font-size: 35px;
+           font-family: "greatVibes";
+    }
+    p {
+        font-family: 'cabin';
+    }
+}
+.butterflyParrallax{
+    border-bottom: rgb(255, 200, 48) solid 15px;
+    border-top: rgb(255, 200, 48) solid 15px;
+    background-image: url("/assets/images/butterfly.jpg");
+
+    height: 500px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.ladybirdParrallax{
+    border-bottom: rgb(255, 200, 48) solid 15px;
+    border-top: rgb(255, 200, 48) solid 15px;
+    background-image: url("/assets/images/ladybird.jpg");
+
+    height: 500px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.team{
+    height: 60vh;
+}
+.authorInterview {
+    margin-bottom: 100px;
+    
+}
+.space{
+    margin-bottom: 25px;
+}
+
+.robertaInterview{
+    .flex{
+        display: flex;
+        
+        .unflex{
+            justify-content: center;
+            margin: auto;
+        }
+        img{
+            width: 55vh;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    .robertaInterview{
+       .flex{
+           display: block;
+       }
+       
+    }
+    .moonImg{
+        width: 70vh;
+    }
+  }

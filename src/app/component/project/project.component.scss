@@ -1,0 +1,41 @@
+section {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    .space{
+        margin-bottom: 25px;
+    }
+}
+.actualProject {
+    margin-top: 120px;
+    min-height: 90vh;
+}
+p{
+    font-family: "cabin";
+}
+h1,h2,h3{
+    font-family: "greatVibes";
+    font-size: 35px;
+}
+h4{
+    font-family: "greatVibes";
+    font-size: 25px;
+}
+.parrallax {
+    border-bottom: rgb(255, 200, 48) solid 15px;
+    border-top: rgb(255, 200, 48) solid 15px;
+    background-image: url("/assets/images/butterfly2.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conclusion{
+   margin-top: 120px;
+   min-height: 60vh;
+}
