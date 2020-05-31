@@ -29,11 +29,11 @@ $jackAndMitsy-theme: mat-light-theme($jackAndMitsy-primary, $jackAndMitsy-accent
 
 @font-face {
     font-family: 'greatVibes';
-    src: url("/assets/font/great-vibes/GreatVibes-Regular.otf") format("opentype")
+    src: url("assets/font/great-vibes/GreatVibes-Regular.otf") format("opentype")
    }
    @font-face {
     font-family: 'cabin';
-    src: url("/assets/font/Cabin/Cabin-Regular.ttf") format("opentype")
+    src: url("assets/font/Cabin/Cabin-Regular.ttf") format("opentype")
    }
 body{
     margin: 0px;
