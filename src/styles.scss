@@ -44,3 +44,43 @@ p{
     font-size: 16px;
 }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: whitesmoke;}
+
+.butterflyParrallax{
+    border-bottom: rgb(255, 200, 48) solid 15px;
+    border-top: rgb(255, 200, 48) solid 15px;
+    background-image: url("assets/images/butterfly.jpg");
+
+    height: 500px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.ladybirdParrallax{
+    border-bottom: rgb(255, 200, 48) solid 15px;
+    border-top: rgb(255, 200, 48) solid 15px;
+    background-image: url("assets/images/ladybird.jpg");
+
+    height: 500px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parrallax {
+    border-bottom: rgb(255, 200, 48) solid 15px;
+    border-top: rgb(255, 200, 48) solid 15px;
+    background-image: url("assets/images/butterfly2.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -13,31 +13,7 @@ section {
         font-family: 'cabin';
     }
 }
-.butterflyParrallax{
-    border-bottom: rgb(255, 200, 48) solid 15px;
-    border-top: rgb(255, 200, 48) solid 15px;
-    background-image: url("/assets/images/butterfly.jpg");
 
-    height: 500px;
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-.ladybirdParrallax{
-    border-bottom: rgb(255, 200, 48) solid 15px;
-    border-top: rgb(255, 200, 48) solid 15px;
-    background-image: url("/assets/images/ladybird.jpg");
-
-    height: 500px;
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 .team{
