@@ -22,3 +22,16 @@ h1,h2,h3{
     display: flex;
     justify-content: space-around;
 }
+
+@media only screen and (max-width: 1000px) {
+    .space{
+        flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    iframe{
+        width: auto;
+        margin-bottom: 10px;
+    }
+  }

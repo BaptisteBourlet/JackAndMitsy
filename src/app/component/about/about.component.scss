@@ -35,12 +35,13 @@ section {
             justify-content: center;
             margin: auto;
         }
-        img{
+        .robertaImg{
             width: 55vh;
         }
     }
     
 }
+
 
 @media only screen and (max-width: 1000px) {
     .robertaInterview{
@@ -51,5 +52,15 @@ section {
     }
     .moonImg{
         width: 70vh;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    
+    .moonImg{
+        width: 40vh;
+    }
+    .robertaImg{
+        width: 40vh!important;
     }
   }
