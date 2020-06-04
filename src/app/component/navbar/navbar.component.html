@@ -1,35 +1,40 @@
 <img class="panorama" src="assets/images/panorama.png" alt="dessin de jack et mitsy">
 
 
-    <nav id="navbar">
-        <div *ngIf = "!isShow">
-    <ul>
-        <li>
-            <a [routerLink]="'/'" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                Accueil
-            </a>
-        </li>
-        <li>
-            <a [routerLink]="'/project'" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                Projets
-            </a>
-        </li>
-        <li>
-            <a [routerLink]="'/inspiration'" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                Inspirations
-            </a>
-        </li>
-        <li>
-            <a [routerLink]="'/contact'" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                Contact
-            </a>
-        </li>
-        <li>
-            <a [routerLink]="'/about'" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-                About
-            </a>
-        </li>
-    </ul>
-</div>
-    <a class="showMenu" (click) = toggleDisplay()><img src={{icon}}></a>
+<nav id="navbar">
+    <div *ngIf="!isShow">
+        <ul>
+            <li>
+                <a (click)=hideNav() [routerLink]="'/'" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}">
+                    Accueil
+                </a>
+            </li>
+            <li>
+                <a (click)=hideNav() [routerLink]="'/project'" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}">
+                    Projets
+                </a>
+            </li>
+            <li>
+                <a (click)=hideNav() [routerLink]="'/inspiration'" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}">
+                    Inspirations
+                </a>
+            </li>
+            <li>
+                <a (click)=hideNav() [routerLink]="'/contact'" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}">
+                    Contact
+                </a>
+            </li>
+            <li>
+                <a (click)=hideNav() [routerLink]="'/about'" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}">
+                    About
+                </a>
+            </li>
+        </ul>
+    </div>
+    <a class="showMenu" (click)=toggleDisplay()><img src={{icon}}></a>
 </nav>
