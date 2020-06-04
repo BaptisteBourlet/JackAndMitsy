@@ -19,8 +19,7 @@ export class NavbarComponent implements OnInit {
 
   constructor(@Inject(DOCUMENT) document) { }
 
-  ngOnInit() {
-  }
+ 
   @HostListener('window:scroll', ['$event'])
   onWindowScroll(e) {
      if (window.pageYOffset > 400) {
@@ -31,5 +30,23 @@ export class NavbarComponent implements OnInit {
         element.classList.remove('sticky'); 
      }
   }
+  isShow
+  ngOnInit() {
+    if (screen.width < 800){
+      this.isShow = true;
+    }
+  }
+ 
 
+  
+  icon = 'assets/images/show.svg';
+  toggleDisplay() {
+    
+    this.isShow = !this.isShow;
+    if (this.isShow === false) {
+      this.icon = 'assets/images/hide.svg';
+  } else {
+      this.icon = 'assets/images/show.svg'
+  }
+  }
 }
