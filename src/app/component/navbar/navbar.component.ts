@@ -37,8 +37,6 @@ export class NavbarComponent implements OnInit {
     }
   }
 
-
-
   icon = 'assets/images/show.svg';
   toggleDisplay() {
 
@@ -50,7 +48,11 @@ export class NavbarComponent implements OnInit {
     }
   }
   hideNav() {
-    this.isShow = true
+    
+    if (screen.width < 800) {
+      this.isShow = true
     this.icon = 'assets/images/show.svg'
+    } 
+    
   }
 }
