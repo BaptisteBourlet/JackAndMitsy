@@ -12,19 +12,19 @@ const routes: Routes = [
     component: HomeComponent,
   },
   {
-    path: 'project',
+    path: 'https://baptistebourlet.github.io/jackAndMitsy/project',
     component: ProjectComponent,
   },
   {
-    path: 'inspiration',
+    path: 'https://baptistebourlet.github.io/jackAndMitsy/inspiration',
     component: InspiComponent,
   },
   {
-    path: 'contact',
+    path: 'https://baptistebourlet.github.io/jackAndMitsy/contact',
     component: ContactComponent,
   },
   {
-    path: 'about',
+    path: 'https://baptistebourlet.github.io/jackAndMitsy/about',
     component: AboutComponent,
   }
   
