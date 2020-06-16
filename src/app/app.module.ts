@@ -1,6 +1,3 @@
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import { MatCardModule } from '@angular/material/card';
-import { MatButtonModule } from '@angular/material/button';
 import { AboutComponent } from './component/about/about.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
